@@ -2462,6 +2462,9 @@ mod test_recovery_idempotency;
 #[cfg(test)]
 mod test_event_schema;
 
+#[cfg(test)]
+mod test_capabilities;
+
 // #[cfg(test)]
 // mod test_gas_budget;
 // #[cfg(test)]
