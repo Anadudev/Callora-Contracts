@@ -62,7 +62,7 @@ pub const CAP_REQUEST_IDEMPOTENCY: u64 = 1 << 8;
 pub const CAP_TWO_STEP_OWNERSHIP: u64 = 1 << 9;
 
 /// Bit 10 — Two-step admin transfer: the admin role moves via `set_admin()` /
-/// `accept_admin()`.
+/// `accept_admin()` / `cancel_admin_transfer()`.
 /// Introduced: v1.0.0
 pub const CAP_TWO_STEP_ADMIN: u64 = 1 << 10;
 
